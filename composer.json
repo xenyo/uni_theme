@@ -7,17 +7,5 @@
             "name": "Parkle Lee",
             "email": "parkle.lee@xenyo.com"
         }
-    ],
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://packages.xenyo.net"
-        },
-        {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        }
-    ],
-    "require": {
-    }
+    ]
 }
