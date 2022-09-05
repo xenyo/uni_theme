@@ -1,0 +1,11 @@
+name: Uni Base
+description: Base theme for Xenyo Uni Framework
+type: theme
+core_version_requirement: ^9 || ^10
+base theme: false
+regions:
+  header: Header
+  primary_menu: Primary menu
+  content: Content
+  footer: Footer
+  fixed: Fixed

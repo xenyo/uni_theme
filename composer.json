@@ -1,0 +1,23 @@
+{
+    "name": "xenyo/uni_base",
+    "description": "Base theme for Xenyo Uni Framework",
+    "type": "drupal-theme",
+    "authors": [
+        {
+            "name": "Parkle Lee",
+            "email": "parkle.lee@xenyo.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.xenyo.net"
+        },
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+    }
+}

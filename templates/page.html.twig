@@ -1,0 +1,35 @@
+{# {% set suggestions = include("@") %}
+
+{% set attributes = create_attributes() %}
+{% set attributes = attributes.addClass({{ }})} #}
+
+<div class="page">
+  <header role="banner" class="page__header">
+    {% block header %}
+      <div class="container">
+        <div class="page__header__regions">
+          {{ page.header }}
+          {{ page.primary_menu }}
+        </div>
+      </div>
+    {% endblock %}
+  </header>
+
+  <main role="main" class="page__main" id="main-content">
+    {% block main %}
+      {{ page.content }}
+    {% endblock %}
+  </main>
+
+  <footer role="contentinfo">
+    {% block footer %}
+      <div class="container">
+        <div class="page__footer__regions">
+          {{ page.footer }}
+        </div>
+      </div>
+    {% endblock %}
+  </footer>
+</div>
+
+{{ page.fixed }}
