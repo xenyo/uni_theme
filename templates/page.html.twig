@@ -1,10 +1,8 @@
-{# {% set suggestions = include("@") %}
+{% set suggestions = include("@uni_base/autoload.html.twig")|split(' ') %}
+{% set attributes = attributes.addClass(suggestions) %}
 
-{% set attributes = create_attributes() %}
-{% set attributes = attributes.addClass({{ }})} #}
-
-<div class="page">
-  <header role="banner" class="page__header">
+<div{{ attributes }}>
+  <header class="page__header" role="banner">
     {% block header %}
       <div class="container">
         <div class="page__header__regions">
@@ -15,13 +13,13 @@
     {% endblock %}
   </header>
 
-  <main role="main" class="page__main" id="main-content">
+  <main class="page__main" role="main" id="main-content">
     {% block main %}
       {{ page.content }}
     {% endblock %}
   </main>
 
-  <footer role="contentinfo">
+  <footer class="page__footer" role="contentinfo">
     {% block footer %}
       <div class="container">
         <div class="page__footer__regions">

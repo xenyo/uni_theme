@@ -1,0 +1,11 @@
+<?php
+
+function uni_base_preprocess(&$variables, $hook) {
+  $active_theme = \Drupal::service('theme.manager')->getActiveTheme();
+  
+  // Provide an array containing the active theme name and every base theme
+  $variables['extensions'] = array_merge(
+    [ $active_theme->getName() ],
+    array_keys($active_theme->getBaseThemeExtensions())
+  );
+}
