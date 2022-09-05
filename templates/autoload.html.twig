@@ -5,7 +5,7 @@
     {% set suggestion = suggestion|replace({'_': '-'})|clean_class|trim('-') %}
     {% set suggestions = suggestions|merge({ (suggestion): true }) %}
   {% endfor %}
-  {% set suggestions = suggestions|keys|sort %}
+  {% set suggestions = suggestions|keys %}
 
   {# Attach libraries from suggestions #}
   {% for extension in extensions %}
