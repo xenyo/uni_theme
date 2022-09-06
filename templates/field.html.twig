@@ -1,5 +1,4 @@
-{% set suggestions = include("@uni_base/autoload.html.twig")|split(' ') %}
-{% set attributes = create_attribute().addClass(suggestions).merge(attributes) %}
+{% include "@uni_base/autoload.html.twig" %}
 
 {% if label_hidden and not multiple %}
 
