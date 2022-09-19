@@ -9,5 +9,9 @@ regions:
   content: Content
   footer: Footer
   fixed: Fixed
-libraries:
-  - uni_base/global
+
+asset_autoload:
+  enabled: true
+
+function_autoload:
+  enabled: true
