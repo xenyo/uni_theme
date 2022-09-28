@@ -9,9 +9,4 @@ regions:
   content: Content
   footer: Footer
   fixed: Fixed
-
-asset_autoload:
-  enabled: true
-
-function_autoload:
-  enabled: true
+asset_autoload: true
