@@ -1,37 +1,35 @@
-{% include "@asset_autoload/autoload.html.twig" %}
-
-{% if label_hidden and not multiple %}
-
-  {% for item in items %}
-    <div{{ attributes }}>{{ item.content }}</div>
-  {% endfor %}
-
-{% elseif label_hidden and multiple %}
-
-  <div{{ attributes }}>
-    {% for item in items %}
-      <div{{ item.attributes }}>{{ item.content }}</div>
-    {% endfor %}
-  </div>
-
-{% elseif not label_hidden and not multiple %}
-
-  <div{{ attributes }}>
-    <div{{ title_attributes }}>{{ label }}</div>
-    {% for item in items %}
-      <div{{ item.attributes }}>{{ item.content }}</div>
-    {% endfor %}
-  </div>
-
-{% elseif not label_hidden and multiple %}
-
-  <div{{ attributes }}>
-    <div{{ title_attributes }}>{{ label }}</div>
-    <div class="field__items">
+{% if label_hidden %}
+  {% if multiple %}
+    {# Label hidden, multiple items #}
+    <div{{ attributes }}>
       {% for item in items %}
         <div{{ item.attributes }}>{{ item.content }}</div>
       {% endfor %}
     </div>
-  </div>
-
+  {% else %}
+    {# Label hidden, single item #}
+    {% for item in items %}
+      <div{{ attributes }}>{{ item.content }}</div>
+    {% endfor %}
+  {% endif %}
+{% else %}
+  {% if multiple %}
+    {# Label shown, multiple items #}
+    <div{{ attributes }}>
+      <div{{ title_attributes }}>{{ label }}</div>
+      <div class="field__items">
+        {% for item in items %}
+          <div{{ item.attributes }}>{{ item.content }}</div>
+        {% endfor %}
+      </div>
+    </div>
+  {% else %}
+    {# Label shown, single item #}
+    <div{{ attributes }}>
+      <div{{ title_attributes }}>{{ label }}</div>
+      {% for item in items %}
+        <div{{ item.attributes }}>{{ item.content }}</div>
+      {% endfor %}
+    </div>
+  {% endif %}  
 {% endif %}

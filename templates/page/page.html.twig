@@ -1,0 +1,27 @@
+<div{{ attributes }}>
+  {% block header %}
+    <header class="page__header" role="banner">
+      <div class="container">
+        {{ page.header }}
+      </div>
+    </header>
+  {% endblock %}
+
+  {% block main %}
+    <main class="page__main" role="main" id="main-content">
+      <div class="container">
+        {{ page.content }}
+      </div>
+    </main>
+  {% endblock %}
+
+  {% block footer %}
+    <footer class="page__footer" role="contentinfo">
+      <div class="container">
+        {{ page.footer }}
+      </div>
+    </footer>
+  {% endblock %}
+</div>
+
+{{ page.fixed }}

@@ -11,5 +11,5 @@ if ($variables['label_display'] === 'visually_hidden') {
 
 // Add field item classes
 foreach ($variables['items'] as $item) {
-  $item['attributes']['class'] = 'field__item';
+  $item['attributes']['class'][] = 'field__item';
 }
