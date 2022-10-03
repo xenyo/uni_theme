@@ -1,7 +1,8 @@
 <?php
 
 // Add field label display class
-$variables['attributes']['class'][] = 'field--label-' . str_replace('_', '-', $variables['label_display']);
+$variables['attributes']['class'][] =
+  'field--label-' . str_replace('_', '-', $variables['label_display']);
 
 // Add field label classes
 $variables['title_attributes']['class'][] = 'field__label';
@@ -11,5 +12,5 @@ if ($variables['label_display'] === 'visually_hidden') {
 
 // Add field item classes
 foreach ($variables['items'] as $item) {
-  $item['attributes']['class'][] = 'field__item';
+  $item['attributes']->addClass('field__item');
 }
