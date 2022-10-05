@@ -1,0 +1,17 @@
+{
+  "name": "uni_base",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "watch": "rimraf dist && parcel watch \"templates/**/*.{js,scss}\"",
+    "build": "rimraf dist && parcel build \"templates/**/*.{js,scss}\" --no-source-maps"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "@xenyo/sass-utils": "^1.0.0"
+  }
+}
