@@ -1,0 +1,41 @@
+@use "@xenyo/sass-utils" as *;
+
+.block--local-tasks-block {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+
+  @include max-sm {
+    display: none;
+  }
+  
+  body.toolbar-hidden & {
+    display: none;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    background: white;
+  }
+
+  li {
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+
+    &:hover {
+      background: whitesmoke;
+    }
+  }
+}
