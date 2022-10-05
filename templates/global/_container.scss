@@ -1,6 +1,6 @@
 @use "@xenyo/sass-utils" as *;
 
-.container {
+.container:not([data-asset-autoload]) {
   // Horizontally center the container in the parent
   margin: 0 auto;
 
