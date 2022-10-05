@@ -1,0 +1,8 @@
+body.toolbar-hidden {
+  padding-top: 0 !important;
+  margin-left: 0 !important;
+
+  & > .toolbar {
+    display: none;
+  }
+}
