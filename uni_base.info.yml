@@ -9,3 +9,5 @@ regions:
   content: Content
   footer: Footer
   fixed: Fixed
+libraries:
+  - uni_base/global

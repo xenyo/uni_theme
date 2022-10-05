@@ -2,12 +2,12 @@ lockfileVersion: 5.4
 
 specifiers:
   '@parcel/transformer-sass': ^2.7.0
-  '@xenyo/sass-utils': ^1.0.0
+  '@xenyo/sass-utils': ^1.0.3
   parcel: ^2.7.0
   rimraf: ^3.0.2
 
 dependencies:
-  '@xenyo/sass-utils': 1.0.0
+  '@xenyo/sass-utils': 1.0.3
 
 devDependencies:
   '@parcel/transformer-sass': 2.7.0_@parcel+core@2.7.0
@@ -890,8 +890,8 @@ packages:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
     dev: true
 
-  /@xenyo/sass-utils/1.0.0:
-    resolution: {integrity: sha512-Jb938NWXE3S7jsD2biTQO4X7M2jI9e2wg3LPQuW6IjFtrVw04bhXYW59Hzvut31l2YoUXyd0zVZSk/hy+rA04g==}
+  /@xenyo/sass-utils/1.0.3:
+    resolution: {integrity: sha512-LNPaVDCjJyFWjcujbK2dqRlHUe3y/w/zIY+z7SpIvU7rrxrB89R84bbZCi2iL0uiVYF0oPXnQyuRu0Hd9ojHtg==}
     dev: false
 
   /abortcontroller-polyfill/1.7.3:
