@@ -16,7 +16,7 @@
   // The horizontal padding between the parent and the container
   padding: 0 25px;
 
-  @include max-sm {
+  @include below($sm) {
     padding: 0 15px;
   }
 }

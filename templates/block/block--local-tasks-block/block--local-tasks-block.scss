@@ -6,7 +6,7 @@
   bottom: 0;
   max-width: 100%;
 
-  @include max-sm {
+  @include below($sm) {
     display: none;
   }
   

@@ -2,12 +2,12 @@ lockfileVersion: 5.4
 
 specifiers:
   '@parcel/transformer-sass': ^2.7.0
-  '@xenyo/sass-utils': ^1.0.3
+  '@xenyo/sass-utils': ^1.2.1
   parcel: ^2.7.0
   rimraf: ^3.0.2
 
 dependencies:
-  '@xenyo/sass-utils': 1.0.3
+  '@xenyo/sass-utils': 1.2.1
 
 devDependencies:
   '@parcel/transformer-sass': 2.7.0_@parcel+core@2.7.0
@@ -469,7 +469,7 @@ packages:
       '@parcel/source-map': 2.1.1
       '@parcel/utils': 2.7.0
       nullthrows: 1.1.1
-      terser: 5.15.0
+      terser: 5.15.1
     transitivePeerDependencies:
       - '@parcel/core'
     dev: true
@@ -890,8 +890,8 @@ packages:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
     dev: true
 
-  /@xenyo/sass-utils/1.0.3:
-    resolution: {integrity: sha512-LNPaVDCjJyFWjcujbK2dqRlHUe3y/w/zIY+z7SpIvU7rrxrB89R84bbZCi2iL0uiVYF0oPXnQyuRu0Hd9ojHtg==}
+  /@xenyo/sass-utils/1.2.1:
+    resolution: {integrity: sha512-QaSfrUbMswsW7foPKvsTBwDAxKC4/h3vBivtfyHa2dsav6b3AKiYMKEOIy9+c6Z2Ox7Pw9rYKoUseKiQxIMvSQ==}
     dev: false
 
   /abortcontroller-polyfill/1.7.3:
@@ -965,9 +965,9 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001416
-      electron-to-chromium: 1.4.272
+      electron-to-chromium: 1.4.274
       node-releases: 2.0.6
-      update-browserslist-db: 1.0.9_browserslist@4.21.4
+      update-browserslist-db: 1.0.10_browserslist@4.21.4
     dev: true
 
   /buffer-from/1.1.2:
@@ -1142,8 +1142,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /electron-to-chromium/1.4.272:
-    resolution: {integrity: sha512-KS6gPPGNrzpVv9HzFVq+Etd0AjZEPr5pvaTBn2yD6KV4+cKW4I0CJoJNgmTG6gUQPAMZ4wIPtcOuoou3qFAZCA==}
+  /electron-to-chromium/1.4.274:
+    resolution: {integrity: sha512-Fgn7JZQzq85I81FpKUNxVLAzoghy8JZJ4NIue+YfUYBbu1AkpgzFvNwzF/ZNZH9ElkmJD0TSWu1F2gTpw/zZlg==}
     dev: true
 
   /entities/2.2.0:
@@ -1739,8 +1739,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /terser/5.15.0:
-    resolution: {integrity: sha512-L1BJiXVmheAQQy+as0oF3Pwtlo4s3Wi1X2zNZ2NxOB4wx9bdS9Vk67XQENLFdLYGCK/Z2di53mTj/hBafR+dTA==}
+  /terser/5.15.1:
+    resolution: {integrity: sha512-K1faMUvpm/FBxjBXud0LWVAGxmvoPbZbfTCYbSgaaYQaIXI3/TdI7a7ZGA73Zrou6Q8Zmz3oeUTsp/dj+ag2Xw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -1770,8 +1770,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /update-browserslist-db/1.0.9_browserslist@4.21.4:
-    resolution: {integrity: sha512-/xsqn21EGVdXI3EXSum1Yckj3ZVZugqyOZQ/CxYPBD/R+ko9NSUScf8tFF4dOKY+2pvSSJA/S+5B8s4Zr4kyvg==}
+  /update-browserslist-db/1.0.10_browserslist@4.21.4:
+    resolution: {integrity: sha512-OztqDenkfFkbSG+tRxBeAnCVPckDBcvibKd35yDONx6OU8N7sqgwc7rCbkJ/WcYtVRZ4ba68d6byhC21GFh7sQ==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
