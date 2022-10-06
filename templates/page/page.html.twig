@@ -1,7 +1,7 @@
 <div{{ attributes }}>
   {% block header %}
     <header class="page__header" role="banner">
-      <div class="container">
+      <div class="wrapper">
         {{ page.header }}
       </div>
     </header>
@@ -9,7 +9,7 @@
 
   {% block main %}
     <main class="page__main" role="main" id="main-content">
-      <div class="container">
+      <div class="wrapper">
         {{ page.content }}
       </div>
     </main>
@@ -17,7 +17,7 @@
 
   {% block footer %}
     <footer class="page__footer" role="contentinfo">
-      <div class="container">
+      <div class="wrapper">
         {{ page.footer }}
       </div>
     </footer>

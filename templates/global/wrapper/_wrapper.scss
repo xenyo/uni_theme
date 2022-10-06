@@ -1,7 +1,7 @@
 @use "@xenyo/sass-utils" as *;
 
-.container:not([data-asset-autoload]) {
-  // Horizontally center the container in the parent
+.wrapper {
+  // Horizontally center the wrapper in the parent
   margin: 0 auto;
 
   // Prevent shrinking in case the parent is a grid or flex element
@@ -10,10 +10,10 @@
   // Ensure the element uses border-box
   box-sizing: border-box;
 
-  // The max width of the container including padding
+  // The max width of the wrapper including padding
   max-width: 1440px;
 
-  // The horizontal padding between the parent and the container
+  // The horizontal padding between the parent and the wrapper
   padding: 0 25px;
 
   @include below($sm) {
