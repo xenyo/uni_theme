@@ -4,11 +4,12 @@
   "type": "module",
   "browserslist": "defaults",
   "scripts": {
-    "watch": "rimraf dist && parcel watch \"templates/**/[^_]*.{js,scss}\"",
-    "build": "rimraf dist && parcel build \"templates/**/[^_]*.{js,scss}\" --no-source-maps"
+    "watch": "nodemon --watch templates --ext js,scss --exec \"pnpm build\"",
+    "build": "rimraf dist && parcel build \"templates/**/[^_]*.{js,scss}\""
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
+    "nodemon": "^2.0.20",
     "parcel": "^2.7.0",
     "rimraf": "^3.0.2"
   },

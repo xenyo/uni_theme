@@ -1,0 +1,2 @@
+.block--local-tasks-block{max-width:100%;position:fixed;bottom:0;right:0}@media (max-width:499.98px){.block--local-tasks-block{display:none}}body.toolbar-hidden .block--local-tasks-block{display:none}.block--local-tasks-block ul{background:#fff;flex-flow:wrap;justify-content:flex-end;padding:0;list-style:none;display:flex}.block--local-tasks-block li:first-child{margin-left:0}.block--local-tasks-block a{padding:10px;text-decoration:none;display:block}.block--local-tasks-block a:hover{background:#f5f5f5}
+/*# sourceMappingURL=block--local-tasks-block.css.map */
