@@ -1,2 +1,0 @@
-(()=>{const o="uni_base:toolbar";Drupal.behaviors[o]={attach:(t,e)=>{once(o,".toolbar").forEach((o=>{const t=localStorage.getItem("isToolbarHidden");document.body.classList.toggle("toolbar-hidden","true"===t),document.addEventListener("keydown",(o=>{if("F4"===o.key){const o=document.body.classList.toggle("toolbar-hidden");localStorage.setItem("isToolbarHidden",o)}}))}))}}})();
-//# sourceMappingURL=toolbar.js.map
