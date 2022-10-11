@@ -2,9 +2,11 @@
 
 .block--local-tasks-block {
   position: fixed;
-  right: 0;
-  bottom: 0;
-  max-width: 100%;
+  inset: auto 0 0 0;
+  background: white;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  font-family: sans-serif;
+  font-weight: normal;
 
   @include below($sm) {
     display: none;
@@ -19,8 +21,7 @@
     padding: 0;
     display: flex;
     flex-flow: wrap;
-    justify-content: flex-end;
-    background: white;
+    justify-content: center;
   }
 
   li {
@@ -32,10 +33,18 @@
   a {
     text-decoration: none;
     display: block;
-    padding: 10px;
+    padding: 10px 20px;
+    color: gray;
 
     &:hover {
+      color: black;
       background: whitesmoke;
+    }
+
+    &.is-active {
+      color: black;
+      padding-bottom: 8px;
+      border-bottom: 2px solid black;
     }
   }
 }
