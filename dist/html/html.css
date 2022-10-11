@@ -1,2 +1,2 @@
-*,:before,:after{box-sizing:border-box;overflow-wrap:break-word;margin:0;line-height:calc(1em + 8px)}html,body{height:100%;font-family:sans-serif}img,picture,video,canvas,svg,input,button,textarea,select{max-width:100%;display:block}input,button,textarea,select{font:inherit;color:inherit;letter-spacing:inherit}a{color:#003ecc}
+*,:before,:after{box-sizing:border-box;overflow-wrap:break-word;margin:0;line-height:calc(1em + 8px)}html,body{height:100%;font-family:sans-serif}img,picture,video,canvas,svg{max-width:100%;height:auto;display:block}input,button,textarea,select{font:inherit;color:inherit;letter-spacing:inherit;display:block}
 /*# sourceMappingURL=html.css.map */

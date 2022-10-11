@@ -22,21 +22,23 @@ html, body {
   font-family: sans-serif;
 }
 
-// Improve media element defaults
-img, picture, video, canvas, svg,
-input, button, textarea, select {
+// Media element styles
+img, picture, video, canvas, svg {
+  // Normalize display
   display: block;
+
+  // Make responsive
   max-width: 100%;
+  height: auto;
 }
 
-// Add form element typography inheritance
+// Form element styles
 input, button, textarea, select {
+  // Normalize display
+  display: block;
+
+  // Add typography inheritance
   font: inherit;
   color: inherit;
   letter-spacing: inherit;
-}
-
-// Normalize link styles
-a {
-  color: #003ecc;
 }
