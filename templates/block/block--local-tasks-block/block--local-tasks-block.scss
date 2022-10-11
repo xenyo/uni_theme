@@ -7,8 +7,9 @@
   box-shadow: 0 0 10px rgb(0 0 0 / 10%);
   font-family: sans-serif;
   font-weight: normal;
+  font-size: 16px;
 
-  @include below($sm) {
+  @include below($md) {
     display: none;
   }
   
@@ -46,5 +47,11 @@
       padding-bottom: 8px;
       border-bottom: 2px solid black;
     }
+  }
+}
+
+body {
+  &.toolbar-hidden {
+    padding-bottom: 0 !important;
   }
 }

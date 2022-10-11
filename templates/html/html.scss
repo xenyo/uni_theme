@@ -16,7 +16,7 @@
 // Root styles
 html, body {
   // Allow percentage-based heights in the application
-  height: 100%;
+  min-height: 100%;
 
   // Set default font
   font-family: sans-serif;
