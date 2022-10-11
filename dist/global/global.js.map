@@ -1,1 +1,0 @@
-{"mappings":"AAAAA,QAAQC,IAAI","sources":["templates/global/hello-world/_hello-world.js"],"sourcesContent":["console.log('Hello uni_base!');\n"],"names":["console","log"],"version":3,"file":"global.js.map"}
