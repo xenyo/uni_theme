@@ -1,15 +1,2 @@
-import debounce from 'underscore/modules/debounce';
-
-(() => {
-  const component = 'uni_base:block--local-tasks-block';
-  Drupal.behaviors[component] = {
-    attach: (context, settings) => {
-      once(component, '.block--local-tasks-block').forEach(block => {
-        window.addEventListener('resize', debounce(() => {
-          const height = block.offsetHeight;
-          document.body.style.paddingBottom = `${height}px`;
-        }, 150));
-      });
-    }
-  }
-})();
+!function(){function t(t,n){return n=null==n?t.length-1:+n,function(){for(var e=Math.max(arguments.length-n,0),a=Array(e),r=0;r<e;r++)a[r]=arguments[r+n];switch(n){case 0:return t.call(this,a);case 1:return t.call(this,arguments[0],a);case 2:return t.call(this,arguments[0],arguments[1],a)}var l=Array(n+1);for(r=0;r<n;r++)l[r]=arguments[r];return l[n]=a,t.apply(this,l)}}var n=Date.now||function(){return(new Date).getTime()};function e(e,a,r){var l,o,c,u,i,s=function(){var t=n()-o;a>t?l=setTimeout(s,a-t):(l=null,r||(u=e.apply(i,c)),l||(c=i=null))},f=t((function(t){return i=this,c=t,o=n(),l||(l=setTimeout(s,a),r&&(u=e.apply(i,c))),u}));return f.cancel=function(){clearTimeout(l),l=c=i=null},f}(()=>{const t="uni_base:block--local-tasks-block";Drupal.behaviors[t]={attach:(n,a)=>{once(t,".block--local-tasks-block").forEach((t=>{window.addEventListener("resize",e((()=>{const n=t.offsetHeight;document.body.style.paddingBottom=`${n}px`}),150))}))}}})()}();
+//# sourceMappingURL=block--local-tasks-block.js.map
