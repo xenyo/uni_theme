@@ -9,3 +9,5 @@ regions:
   content: Content
   footer: Footer
   fixed: Fixed
+dependencies:
+  - uni_features:uni_features
