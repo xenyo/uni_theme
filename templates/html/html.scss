@@ -13,11 +13,8 @@
   overflow-wrap: break-word;
 }
 
-// Root styles
-html, body {
-  // Allow percentage-based heights in the application
-  min-height: 100%;
-
+// Body styles
+body {
   // Set default font
   font-family: sans-serif;
 }
