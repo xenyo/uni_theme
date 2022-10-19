@@ -1,0 +1,2 @@
+:where(.page){font-family:sans-serif}:where(.page) *,:where(.page) :before,:where(.page) :after{box-sizing:border-box;overflow-wrap:break-word;margin:0;line-height:calc(1em + 8px)}:where(.page) img,:where(.page) picture,:where(.page) video,:where(.page) canvas,:where(.page) svg{max-width:100%;height:auto;display:block}:where(.page) input,:where(.page) button,:where(.page) textarea,:where(.page) select{font:inherit;color:inherit;letter-spacing:inherit;display:block}
+/*# sourceMappingURL=page.css.map */
