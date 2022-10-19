@@ -3,13 +3,13 @@ lockfileVersion: 5.4
 specifiers:
   '@parcel/transformer-sass': ^2.7.0
   '@xenyo/parcel-config': ^1.0.0
-  '@xenyo/sass-utils': ^1.3.0
+  '@xenyo/sass-utils': ^1.5.1
   nodemon: ^2.0.20
   parcel: ^2.7.0
   underscore: ^1.13.6
 
 dependencies:
-  '@xenyo/sass-utils': 1.3.0
+  '@xenyo/sass-utils': 1.5.1
   underscore: 1.13.6
 
 devDependencies:
@@ -1189,8 +1189,8 @@ packages:
       - uncss
     dev: true
 
-  /@xenyo/sass-utils/1.3.0:
-    resolution: {integrity: sha512-eOM2UW32k5jF0RMONWpMAyAEGvNvGQw60D7JPvXHkqLdm64rySVz276NduAvkUnFcIhK1KnwpthDqkiBTQKhSQ==}
+  /@xenyo/sass-utils/1.5.1:
+    resolution: {integrity: sha512-62GU/zEswGw+ibF16L+RuGeEGR2sTvg/Yp1vARD1xa73DF8CYtMzfAJ3nyeX5ISZEgRCSWH3/3K0oLFmLKFToA==}
     dev: false
 
   /abbrev/1.1.1:
