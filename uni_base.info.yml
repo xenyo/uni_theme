@@ -11,3 +11,5 @@ regions:
   fixed: Fixed
 dependencies:
   - uni_features:uni_features
+libraries:
+  - uni_base/card
