@@ -32,10 +32,11 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-      <ul{{ attributes.addClass('menu', 'menu--level-0') }}>
+      <div{{ attributes.addClass('menu', 'menu--level-0') }}>
     {% else %}
-      <ul class="menu menu--level-{{ menu_level }}">
+      <div class="menu menu--level-{{ menu_level }}">
     {% endif %}
+    <ul class="menu__list menu__list--level-{{ menu_level }}">
     {% for item in items %}
       <li{{ item.attributes.addClass('menu__item', "menu__item--level-#{menu_level}") }}>
         {{ link(item.title, item.url, {class: ['menu__link', "menu__link--level-#{menu_level}"]}) }}
@@ -45,5 +46,6 @@
       </li>
     {% endfor %}
     </ul>
+    </div>
   {% endif %}
 {% endmacro %}
