@@ -1,0 +1,28 @@
+@use 'sass-utils' as *;
+
+.status-messages {
+  padding: 10px 0;
+
+  &--status {
+    background: #c8e6c9;
+  }
+
+  &--warning {
+    background: #ffecb3;
+  }
+
+  &--error {
+    background: #ffcdd2;
+  }
+}
+
+.status-messages__list {
+  list-style: none;
+  padding: 0;
+}
+
+.status-messages__message {
+  margin-top: 10px;
+
+  @include trim-margin;
+}
