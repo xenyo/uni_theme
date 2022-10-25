@@ -5,10 +5,12 @@ import debounce from 'underscore/modules/debounce';
   Drupal.behaviors[component] = {
     attach: (context, settings) => {
       once(component, '.block--local-tasks-block').forEach(block => {
-        window.addEventListener('resize', debounce(() => {
+        const update = () => {
           const height = block.offsetHeight;
           document.body.style.paddingBottom = `${height}px`;
-        }, 150));
+        }
+        window.addEventListener('resize', debounce(update, 150));
+        update();
       });
     }
   }
