@@ -1,0 +1,2 @@
+.modal{pointer-events:none;opacity:0;transition:opacity var(--transition-duration,.3s)var(--transition-timing-function,ease-out),transform var(--transition-duration,.3s)var(--transition-timing-function,ease-out);justify-content:center;align-items:center;display:grid;position:fixed;inset:0;overflow-y:scroll}.modal.is-open{pointer-events:auto;opacity:1;transform:none}
+/*# sourceMappingURL=modal.css.map */

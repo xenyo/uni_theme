@@ -1,0 +1,20 @@
+@use 'sass-utils' as *;
+
+.modal {
+  position: fixed;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  overflow-y: scroll;
+
+  @include transition(opacity transform);
+
+  &.is-open {
+    pointer-events: auto;
+    opacity: 1;
+    transform: none;
+  }
+}

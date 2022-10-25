@@ -13,3 +13,4 @@ dependencies:
   - uni_features:uni_features
 libraries:
   - uni_base/card
+  - uni_base/modal
