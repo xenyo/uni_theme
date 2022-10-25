@@ -2,7 +2,7 @@
   .menu__list--level-0 {
     display: flex;
     flex-flow: wrap;
-    gap: 30px;
+    column-gap: 30px;
   }
 
   a {
