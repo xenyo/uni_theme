@@ -8,7 +8,7 @@
   inset: 0;
   pointer-events: none;
   opacity: 0;
-  overflow-y: scroll;
+  overflow-y: auto;
 
   @include transition(opacity transform);
 
