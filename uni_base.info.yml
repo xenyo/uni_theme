@@ -12,5 +12,7 @@ regions:
 dependencies:
   - uni_features:uni_features
 libraries:
+  - core/drupal
+  - core/once
   - uni_base/card
   - uni_base/modal
