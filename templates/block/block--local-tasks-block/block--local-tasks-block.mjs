@@ -1,5 +1,3 @@
-import debounce from 'underscore/modules/debounce';
-
 (() => {
   const component = 'uni_base:block--local-tasks-block';
   Drupal.behaviors[component] = {
@@ -9,7 +7,7 @@ import debounce from 'underscore/modules/debounce';
           const height = block.offsetHeight;
           document.body.style.paddingBottom = `${height}px`;
         }
-        window.addEventListener('resize', debounce(update, 150));
+        window.addEventListener('resize', _.debounce(update, 150));
         update();
       });
     }
