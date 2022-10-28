@@ -14,8 +14,6 @@ dependencies:
 libraries:
   - core/drupal
   - core/once
-  - uni_features/fontawesome
   - uni_features/really
-  - uni_features/wrapper
   - uni_base/card
   - uni_base/modal
