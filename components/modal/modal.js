@@ -1,2 +1,2 @@
-(()=>{const a="uni_base.modal";Drupal.behaviors[a]={attach:(e,o)=>{once(a,".modal").forEach((a=>{a.querySelectorAll("[data-modal-close]").forEach((e=>{e.addEventListener("click",(()=>{a.classList.remove("is-open")}))}))}))}}})();
+(()=>{const e="uni_theme.modal";Drupal.behaviors[e]={attach:(a,o)=>{once(e,".modal").forEach((e=>{e.querySelectorAll("[data-modal-close]").forEach((a=>{a.addEventListener("click",(()=>{e.classList.remove("is-open")}))}))}))}}})();
 //# sourceMappingURL=modal.js.map

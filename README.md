@@ -1,3 +1,3 @@
-# uni_base
+# uni_theme
 
 Base theme for Xenyo Uni Framework

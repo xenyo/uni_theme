@@ -1,4 +1,4 @@
-name: Uni Base
+name: Uni Theme
 description: Base theme for Xenyo Uni Framework
 type: theme
 core_version_requirement: ^9 || ^10
@@ -15,5 +15,5 @@ libraries:
   - core/drupal
   - core/once
   - uni_features/really
-  - uni_base/card
-  - uni_base/modal
+  - uni_theme/card
+  - uni_theme/modal

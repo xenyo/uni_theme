@@ -1,5 +1,5 @@
 (() => {
-  const component = 'uni_base:block--local-tasks-block';
+  const component = 'uni_theme:block--local-tasks-block';
   Drupal.behaviors[component] = {
     attach: (context, settings) => {
       once(component, '.block--local-tasks-block').forEach(block => {

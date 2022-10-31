@@ -1,5 +1,5 @@
 (() => {
-  const behavior = 'uni_base.modal';
+  const behavior = 'uni_theme.modal';
 
   Drupal.behaviors[behavior] = {
     attach: (context, settings) => {
