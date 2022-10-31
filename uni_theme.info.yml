@@ -10,10 +10,10 @@ regions:
   footer: Footer
   fixed: Fixed
 dependencies:
-  - uni_features:uni_features
+  - uni:uni
 libraries:
   - core/drupal
   - core/once
-  - uni_features/really
+  - uni/really
   - uni_theme/card
   - uni_theme/modal
