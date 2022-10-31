@@ -25,7 +25,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "xenyo/uni_features": "^1.0"
+        "xenyo/uni": "^1.0"
     },
     "config": {
         "sort-packages": true
