@@ -25,7 +25,7 @@
 {% for type, messages in message_list %}
   {% set message_attributes = create_attribute(attributes.storage()).addClass("status-messages--#{type}") %}
   <div role="contentinfo" aria-label="{{ status_headings[type] }}"{{ message_attributes|without('role', 'aria-label') }}>
-    <div class="wrapper">
+    <div class="uni-wrapper">
     {% if type == 'error' %}
       <div role="alert">
     {% endif %}
