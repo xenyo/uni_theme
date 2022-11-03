@@ -1,0 +1,15 @@
+{% set modal_attributes = modal_attributes ?? create_attribute() %}
+<div{{ modal_attributes.addClass('uni-modal') }}>
+  <div class="uni-modal__window">
+    <div class="uni-modal__header">
+      {% block header %}
+        <div class="uni-modal__close" data-uni-modal-close>
+          <span class="fa-regular fa-xmark"></span>
+        </div>
+      {% endblock %}
+    </div>
+    <div class="uni-modal__main">
+      {% block main %}{% endblock %}
+    </div>
+  </div>
+</div>
