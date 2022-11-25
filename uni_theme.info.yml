@@ -6,6 +6,7 @@ base theme: false
 asset_autoload: true
 regions:
   header: Header
+  title: Title
   content: Content
   footer: Footer
   fixed: Fixed
