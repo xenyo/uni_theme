@@ -3,6 +3,7 @@ description: Base theme for Xenyo Uni Framework
 type: theme
 core_version_requirement: ^9 || ^10
 base theme: false
+hidden: true
 asset_autoload: true
 regions:
   header: Header
