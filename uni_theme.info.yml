@@ -10,7 +10,7 @@ regions:
   footer: Footer
   fixed: Fixed
 dependencies:
-  - uni:uni
+  - uni:uni_installer
 libraries:
   - core/drupal
   - core/once
