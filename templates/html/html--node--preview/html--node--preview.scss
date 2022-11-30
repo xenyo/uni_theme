@@ -1,0 +1,44 @@
+@use 'sass-utils' as *;
+
+.node-preview-container {
+  inset: auto 0 0 0;
+  background: #f5f5f2;
+  border-top: 1px solid #aaaaaa;
+  padding: 0;
+  font-family: "Source Sans Pro", "Lucida Grande", Verdana, sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+
+  body.toolbar-hidden & {
+    display: none;
+  }
+
+  .node-preview-form-select {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+
+  a {
+    text-decoration: none;
+    display: block;
+    padding: 9px 18px;
+    color: #565656;
+
+    &:hover {
+      color: #000000;
+      background: white;
+    }
+
+    &.is-active {
+      color: #000000;
+      // padding-bottom: 8px;
+      // border-bottom: 2px solid #000000;
+      font-weight: bold;
+    }
+  }
+
+  .form-element--edit-view-mode {
+    display: none;
+  }
+}
