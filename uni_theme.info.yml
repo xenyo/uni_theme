@@ -20,6 +20,3 @@ libraries:
   - uni/really
   - uni_theme/uni-card
   - uni_theme/uni-modal
-components:
-  namespaces:
-    components: components
