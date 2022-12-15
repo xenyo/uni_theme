@@ -14,10 +14,17 @@ function uni_theme_preprocess(&$variables, $hook) {
 
   if (substr($hook, 0, 8) === 'pattern_') {
     $id = Html::cleanCssIdentifier(substr($hook, 8));
-    $variant = Html::cleanCssIdentifier($variables['variant']);
     $variables['attributes'] = AttributeHelper::mergeCollections(
       $variables['attributes'] ?? [],
-      [ 'class' => [ $id, "$id--$variant"] ],
+      [ 'class' => $id ],
     );
+
+    $variant = Html::cleanCssIdentifier($variables['variant']);
+    if (!empty($variant)) {
+      $variables['attributes'] = AttributeHelper::mergeCollections(
+        $variables['attributes'] ?? [],
+        [ 'class' => "$id--$variant" ],
+      );
+    }
   }
 }
