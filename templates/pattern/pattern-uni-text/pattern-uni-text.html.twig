@@ -1,3 +1,55 @@
 <div{{ attributes }}>
-  {{ text }}
+  {% if text %}
+    {{ text }}
+  {% else %}
+    <h2>Heading 2 Heading 2 Heading 2 Can Be Super Long Can Be Super Long Can Be Super Long Can Be Super Long</h2>
+
+    <h3>Heading 3 Heading 3 Heading 3</h3>
+
+    <h4>Heading 4 Heading 4 Heading 4</h4>
+
+    <h5>Heading 5 Heading 5 Heading 5</h5>
+
+    <h6>Heading 6 Heading 6 Heading 6</h6>
+
+    <h3>Common Paragraph</h3>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, bold italic sed do <a href="/">inner page link</a> eiusmod <a href="https://www.eduhk.hk">external link</a> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <h3>Bulleted Points</h3>
+
+    <ul>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      <ul>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+        </ul>
+        </li>
+      </ul>
+      </li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+    </ul>
+
+    <h3>Numbered Points</h3>
+
+    <ol>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      <ol>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+        <ol>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+        </ol>
+        </li>
+      </ol>
+      </li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+    </ol>
+  {% endif %}
 </div>
