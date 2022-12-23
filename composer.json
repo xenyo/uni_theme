@@ -1,7 +1,7 @@
 {
     "name": "xenyo/uni_theme",
     "description": "Base theme for Xenyo Uni Framework",
-    "type": "drupal-custom-theme",
+    "type": "drupal-theme",
     "authors": [
         {
             "name": "Parkle Lee",
